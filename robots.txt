@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.agrotrace360.com/sitemap.xml
