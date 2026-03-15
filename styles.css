@@ -13,22 +13,22 @@ html.jsr .sr{opacity:0;transform:translateY(28px)}html.jsr .sr.vis{opacity:1;tra
 
 /* === NAVEGACIÓN === */
 .nav{position:fixed;top:0;left:0;right:0;height:66px;z-index:1000;transition:all .35s, top .35s}
-.nav.top{background:rgba(26,92,42,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
-.nav.fix{background:rgba(26,92,42,.95);backdrop-filter:blur(16px);box-shadow:0 2px 16px rgba(0,0,0,.12)}
+.nav.top{background:#ffffffe0;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.nav.fix{background:rgba(255, 255, 255, 0.95);backdrop-filter:blur(16px);box-shadow:0 2px 16px rgba(0,0,0,.12)}
 .nav.nav-hidden{top:-80px}
 .nav-w{max-width:1200px;margin:0 auto;padding:0 20px;height:100%;display:flex;align-items:center;justify-content:space-between}
 .n-logo{height:100px;width:175px;opacity:.9}
 .nav.top .n-logo{filter:none}.nav.fix .n-logo{filter:none}
 .n-links{display:flex;align-items:center;gap:26px}
 .n-links a{font-size:13.5px;font-weight:500;transition:color .2s}
-.nav.top .n-links a{color:rgba(255,255,255,.85)}.nav.fix .n-links a{color:rgba(255,255,255,.85)}
+.nav.top .n-links a{color:rgba(30, 117, 4, 0.85)}.nav.fix .n-links a{color:rgba(30, 117, 4, 0.85)}
 .n-links a:hover{color:var(--g4)}
 .n-cta{padding:9px 20px;background:var(--g3);color:var(--w)!important;border-radius:10px;font-weight:600;box-shadow:0 3px 12px rgba(62,207,110,.3);transition:all .2s;font-size:13px}
 .n-cta:hover{background:var(--g4);transform:translateY(-1px)}
 
 /* Selector de idioma */
 .lang-s{position:relative}.lang-b{display:flex;align-items:center;gap:4px;font-size:13px;padding:5px 10px;border-radius:8px;transition:all .2s}
-.nav.top .lang-b{color:#fff;border:1px solid rgba(255,255,255,.25)}.nav.fix .lang-b{color:#fff;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1)}
+.nav.top .lang-b{color:rgba(30, 117, 4, 0.85);border:1px solid rgba(255,255,255,.25)}.nav.fix .lang-b{color:#fff;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1)}
 .lang-d{position:absolute;top:calc(100% + 6px);right:0;background:var(--w);border:1px solid #e5e5e5;border-radius:10px;box-shadow:0 10px 36px rgba(0,0,0,.12);padding:5px;min-width:145px;opacity:0;visibility:hidden;transform:translateY(-5px);transition:all .2s;z-index:50}
 .lang-d.open{opacity:1;visibility:visible;transform:none}
 .lang-o{display:flex;align-items:center;gap:7px;padding:8px 11px;border-radius:7px;font-size:13px;font-weight:500;color:#444;width:100%;text-align:left;transition:background .15s}
